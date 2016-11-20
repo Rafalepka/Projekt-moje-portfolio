@@ -11,11 +11,13 @@ body {
     text-align: center;
 }*/
 
+/*nav menu*/
 #menu {
     width: 100%;
     position: fixed;
     text-align: right;  
     background-color: white;
+    z-index: 2;
 
 }
 
@@ -35,5 +37,38 @@ body {
     text-decoration: none;
     color: green;
 }
-    
+/*nav menu stop*/
+
+/*header*/
+#header {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+#header img {
+    width: 100%;
+}
+
+#header #main-header-text {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 30%;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
+}
+
+span {
+    font-weight: 900;
+    font-size: 90px;
+    color: #1ac056;
+    text-transform: uppercase;
+}
+/*header stop*/
 
