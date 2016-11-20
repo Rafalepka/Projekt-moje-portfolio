@@ -130,3 +130,17 @@ section > h2 {
     font-weight: 300;
     line-height: 20px;
 }
+
+/*about section off*/
+
+/*skills section on*/
+
+#skills {
+    margin: 3px;
+    text-align: center;
+}
+
+.skill_icons > figure {
+    display: inline-block;
+    padding: 20px 20px
+}
