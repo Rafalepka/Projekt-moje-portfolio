@@ -1,11 +1,27 @@
 /*General Style*/
 
 body {
-	background-color: aqua;
+    background-color: aqua;
     font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
     color: #291f1a;
     margin: 0;
+}
+
+span {
+    font-weight: 400;
+    color: #1ac056;
+    text-transform: uppercase;
+    
+}
+
+#header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    z-index: 1;
+    background-image: url('../img/header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*nav menu*/
@@ -40,16 +56,7 @@ body {
 /*nav menu stop*/
 
 /*header*/
-#header {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    z-index: 1;
-    background-image: url('/img/header-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-}
+
 
 .main-header-content {
     padding: 30vh;
@@ -65,7 +72,6 @@ body {
 }
 
 .main-header-content #second-header-text {
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: white;
     font-size: 2em;
@@ -73,10 +79,13 @@ body {
     
 }
 
-span {
-    font-weight: 400;
-    color: #1ac056;
-    text-transform: uppercase;
+.about_head {
+    text-align: center;
 }
+
+#about > figure {
+    width: 50%;
+}
+
 /*header stop*/
 
