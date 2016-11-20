@@ -1,13 +1,39 @@
 /*General Style*/
 
 body {
-	background-color: #00FF05;
+	background-color: aqua;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #291f1a;
+    margin: 0;
 }
-h1 {
+/*h1 {
     text-align: center;
+}*/
+
+#menu {
+    width: 100%;
+    position: fixed;
+    text-align: right;  
+    background-color: white;
+
 }
 
+#menu .menu-item{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+
+#menu .menu-item a:hover{
+    color: #E8C46D;
+}
+
+
+#menu .menu-item a{
+    text-decoration: none;
+    color: green;
+}
+    
 
