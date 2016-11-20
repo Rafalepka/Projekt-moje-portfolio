@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+form {
+	background-color: #213b50;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -44,6 +47,11 @@ section > h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+p {
+    font-weight: 300;
+    line-height: 25px;
 }
 
 /*nav menu*/
@@ -129,6 +137,7 @@ section > h2 {
 #about>article>p {
     font-weight: 300;
     line-height: 20px;
+    margin: 0;
 }
 
 /*about section off*/
@@ -136,11 +145,91 @@ section > h2 {
 /*skills section on*/
 
 #skills {
-    margin: 3px;
+    margin: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 .skill_icons > figure {
     display: inline-block;
-    padding: 20px 20px
+}
+
+/*skills secktion off*/
+
+/*
+#portfolio {
+    margin: 0;
+}*/
+
+#contact {
+    background-color: #213b50;
+    color: white;
+    display: inline-block;
+}
+
+#contact > .con_left h2 {
+    text-align: left;
+}
+
+#contact > .con_left {
+    width: 49%;
+    float: left;
+}
+
+
+#contact > .con_left a {
+    color: #1ac056;
+}
+#contact > .con_left a:hover {
+    color: grey;
+}
+
+#contact > .con_form input[type] {
+    background-color: #2b4a64;
+    color: white;
+	border: 0px;
+}
+
+#contact > .con_form input {
+    width: 70vh;
+    height: 50%
+}
+
+#contact > .con_form textarea { 
+    background-color: #2b4a64;
+    color: white;
+	border: 0px;
+    width: 70vh;
+}
+
+#contact > .con_left > .icons a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-right: 25px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#contact > .con_left > .icons i{
+    color: white;
+}
+
+#contact > .con_form button {
+	background-color: green;
+	color: white;
+	width: 60px;
+	height: 40px;
+	text-decoration: none;
+	border: 0px solid white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+button {
+    float: right;
+}
+form {
+    margin-top: 100px;
+    float: left;
 }
