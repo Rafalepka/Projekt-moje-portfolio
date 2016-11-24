@@ -10,7 +10,7 @@ form {
 body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
-    margin: 0;
+    margin: 0px;
 }
 
 span {
@@ -148,6 +148,7 @@ p {
     margin: 0;
     text-align: center;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .skill_icons > figure {
@@ -156,12 +157,63 @@ p {
 
 /*skills secktion off*/
 
-/*
+/*portfolio look*/
+
 #portfolio {
     margin: 0;
-}*/
+}
 
+.foto > figure {
+    display: inline-block;
+    margin: -2px;
+    float: left;
+}
+
+.foto > figure > img {
+	width: 400px;
+}
+
+
+#port2 .text { 
+    position: absolute;
+    visibility: hidden;
+}
+
+#port2 .text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#port2:hover .box {
+    background: linear-gradient(rgba(0, 0, 1, 0.5),rgba(0, 0, 0, 0.5));
+    width: 395px;
+    height: 305px;
+    position: absolute;
+    transform: translate( 0%, -101%);
+}
+
+
+#port2:hover .box>.text{
+    margin: 0px;
+    width: 376px;
+    height: 285px;
+    visibility: visible;
+    text-align: center;
+    position: absolute;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    transform: translate( 3%, 3%);
+}
+
+
+/*portfolio off*/
+
+
+/*contact form*/
 #contact {
+    margin-top: 100px;
     background-color: #213b50;
     color: white;
     display: inline-block;
@@ -186,6 +238,8 @@ p {
 
 #contact > .con_form input[type] {
     background-color: #2b4a64;
+    height: 50px;
+    width: 80vh;
     color: white;
 	border: 0px;
 }
@@ -199,7 +253,7 @@ p {
     background-color: #2b4a64;
     color: white;
 	border: 0px;
-    width: 70vh;
+    width: 80vh;
 }
 
 #contact > .con_left > .icons a {
@@ -212,14 +266,22 @@ p {
     text-align: center;
 }
 
-#contact > .con_left > .icons i{
+#contact > .con_left > .icons a{
     color: white;
+    font-size: 25px;
 }
+
+#contact > .con_left > .icons a:hover {
+    background-color: white;
+    color: #213b50;
+}
+
+
 
 #contact > .con_form button {
 	background-color: green;
 	color: white;
-	width: 60px;
+	width: 150px;
 	height: 40px;
 	text-decoration: none;
 	border: 0px solid white;
@@ -233,3 +295,23 @@ form {
     margin-top: 100px;
     float: left;
 }
+
+/*contact style off*/
+
+footer {
+    margin: -3px;
+    height: auto;
+    background-color: darkslateblue;
+    color: white;
+}
+
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/*footer stop*/
