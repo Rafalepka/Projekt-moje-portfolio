@@ -1,5 +1,16 @@
-@media screen and (min-width: 468px) and (max-width: 968px) {
-    figru {
-        width: 50%;
-    }
+@media all and (max-width: 1200px) {
+    
 }
+
+@media all and (max-width: 760px) {
+    
+}
+
+@media all and (max-width: 680px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    
+}
+
