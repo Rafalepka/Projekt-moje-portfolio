@@ -69,6 +69,7 @@ p {
 
 }
 
+
 #menu .menu-item{
     display: inline-block;
     list-style: none;
@@ -85,6 +86,9 @@ p {
     color: #E8C46D;
 }
 
+#menu .toggle, #drop {
+    display: none;
+}
 /*nav menu stop*/
 
 /*header*/
@@ -171,23 +175,21 @@ p {
 
 #port1 {
     background: url("../img/portfolio1.jpg");
-    height: 350px; 
 }
 
 #port2 {
     background: url("../img/portfolio2.jpg");
-    height: 350px;
 }
 
 #port3 {
     background: url("../img/portfolio4.jpg");
-    height: 350px;    
+    
 }
 
 .single_port_item {
     display: inline-block;
     width: 33.3333%;
-    height: auto;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
@@ -238,11 +240,13 @@ p {
     margin: 0;
 }
 
+/*
 .overlay_mask_content> h5 {
     font-size: 16px;
     margin: 15px;
     color: white;
 }
+*/
 
 .overlay_mask_content>p {
     font-size: 16px;
