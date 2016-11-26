@@ -23,6 +23,18 @@
     #menu #drop:checked + ul {
         display: block;
     }
+    
+    #menu ul {
+        display: none;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #menu ul li {
+        display: block;
+        width: 100%;
+        border-top: 1px solid gray;
+    }
 }
 
 @media all and (max-width: 680px) {
