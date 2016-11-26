@@ -256,7 +256,7 @@ p {
 
 .overlay_mask_content>a:hover {
     font-size: 15px;
-    color: darkgray;
+    color: #0DFFBD;
 }
 
 
@@ -303,7 +303,7 @@ p {
 }
 
 #contact > .con_form textarea { 
-    background-color: #2b4a64;
+    background-color: #2b4a64 ;
     color: white;
 	border: 0px;
     width: 80vh;
