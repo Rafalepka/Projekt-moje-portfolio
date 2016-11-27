@@ -1,12 +1,23 @@
 /*Responsive style ON*/
 
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1024px) {
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 50%;
+    }
+    
+    #portfolio .portfolio-items .single-portfolio-item:last-child {
+        width: 100%;
+        
+    }
     
     
 }
 
+
 @media all and (max-width: 760px) {
+/*  menu drop */
+    
     #menu .toggle {
         display: block;
         color: green;
@@ -21,30 +32,98 @@
     }
     
     #menu #drop:checked + ul {
-        display: block;
+        display: inline-block;
     }
     
     #menu ul {
         display: none;
         width: 100%;
-        padding: 0;
+        text-align: right;
     }
     
     #menu ul li {
         display: block;
         width: 100%;
-        border-top: 1px solid gray;
     }
-}
+    
+    #menu #menu-item .menu-item {
+        padding-right: 20px;
+    }
+    
+/*    menu drop stop */
+    
+/*    portfolio on */
+    #portfolio .portfolio-items .single-portfolio-item {
+        width: 100%;
+    }
+    
+/*    header stop */
+    
+/*    about start */
+     
+    #about > figure {
+        width: 100%;
+    }
 
+    #about > figure > img {
+        max-height: inherit;
+    }
+/*    about stop */
+    
+/*portfolio stop */    
+    
+    
 @media all and (max-width: 680px) {
     
+    #header .main-header-content {
+        padding: 15%;
+        position: center;
+    }
+    
+    #header .main-header-content h1 {
+        font-size: 3em;
+    }
+    
+    #header .main-header-content h2 {
+        font-size: 1.8em;
+    }
     
 }
 
 @media all and (max-width: 480px) {
+    #contact .con_left h2 {
+        font-size: 5vw;
+    }
     
+    #contact .con_left {
+        font-size: 3vw;
+    } 
     
+    #contact .con_left .icons a{
+        display: inline-block;
+        height: 5vw;
+        width: 5vw;
+        line-height: 5vw;
+        margin-right: 5vw;
+        padding: 0;
+        font-size: 3vw;
+        margin: 0;
+    }
+    
+/*    ABOUT SECTION*/
+    #about > figure {
+        width: 100%;
+    }
+
+    #about > figure > img {
+       max-height: inherit;
+    }
+    
+    #about > article {
+        width: 100%;
+    }
+    
+/*    ABOUT STOP */
 }
 
 /*Responsive style OFF*/
