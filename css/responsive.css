@@ -91,13 +91,34 @@
 }
 
 @media all and (max-width: 480px) {
-    #contact .con_left h2 {
-        font-size: 5vw;
+    
+    
+    #contact .con-left h2 {
+		width: 100%;
+		text-align: center;
+	 }
+    
+    section {
+		padding: 0 10px 30px;
+	}
+    
+    #contact {
+        text-align: center;    
     }
     
     #contact .con_left {
         font-size: 3vw;
-    } 
+    }
+    
+    #contact .con_left h2 {
+        font-size: 5vw;
+    }
+    
+    #contact .con_form input[type] {
+        width: 20em;
+        height: auto;
+    }
+    
     
     #contact .con_left .icons a{
         display: inline-block;
